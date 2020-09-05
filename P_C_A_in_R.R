@@ -58,7 +58,8 @@ p_c <- prcomp(train[ , -5],
               scale. = T)
 
 attributes(p_c)
-p_c$center p_c$sdev 
+p_c$center
+p_c$sdev 
 
 #################################
 ##Print Principlal Components####
